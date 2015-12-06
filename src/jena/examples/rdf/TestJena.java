@@ -52,6 +52,7 @@ public class TestJena extends Object {
         Property drugbank_brandName = model.createProperty(DrugBankPrefix + "brandName");
         Property drugbank_genericName = model.createProperty(DrugBankPrefix + "genericName");
         Property drugbank_atcCode = model.createProperty(DrugBankPrefix + "atcCode");
+        
         Resource drugbank_drugs = model.createResource(HIFMprefix + "Drug");
 
         ResIterator res1 = model.listResourcesWithProperty(RDF.type, drugbank_drugs);
